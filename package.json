@@ -1,0 +1,33 @@
+{
+  "name": "serverside-functions-tasks-example",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "build": "esbuild --bundle --outfile=dist/chat.js src/bootstrap.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staticbackendhq/serverside-functions-tasks-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staticbackendhq/serverside-functions-tasks-example/issues"
+  },
+  "homepage": "https://github.com/staticbackendhq/serverside-functions-tasks-example#readme",
+  "dependencies": {
+    "@staticbackend/js": "file:../../backend-js",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.18",
+    "@types/react-dom": "^17.0.9",
+    "esbuild": "^0.12.20",
+    "http-server": "^13.0.0"
+  }
+}

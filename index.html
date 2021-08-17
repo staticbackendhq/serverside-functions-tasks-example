@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Server-side functions example</title>
+	<link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+</head>
+<body>
+	<div id="app"></div>
+	
+	<script>
+		var s = document.createElement("script");
+		s.src = "/dist/chat.js?x=" + (new Date().getTime()).toString();
+
+		document.body.appendChild(s);
+	</script>
+</body>
+</html>
